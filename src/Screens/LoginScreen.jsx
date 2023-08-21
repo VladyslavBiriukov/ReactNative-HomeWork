@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     marginTop: 33,
+    marginHorizontal: 16,
   },
   input: {
     height: 50,
