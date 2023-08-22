@@ -12,8 +12,8 @@ import {
   Alert,
 } from "react-native";
 import BackgroundImage from "../Images/BackgroundImage.jpg";
-import Input from "../components/Input";
-import Button from "../components/Button";
+import Input from "../Components/Input";
+import Button from "../Components/Button";
 
 const LoginScreen = () => {
   const navigation = useNavigation();

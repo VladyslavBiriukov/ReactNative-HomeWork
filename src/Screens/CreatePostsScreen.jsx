@@ -8,10 +8,10 @@ import {
 } from "react-native";
 import { FontAwesome, Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
-import Button from "../components/Button";
+import Button from "../Components/Button";
 import { Camera } from "expo-camera";
 import * as MediaLibrary from "expo-media-library";
-import postsData from "../components/TransferPostsData";
+import postsData from "../Components/TransferPostsData";
 
 const CreatePostsScreen = ({ route }) => {
   const navigation = useNavigation();

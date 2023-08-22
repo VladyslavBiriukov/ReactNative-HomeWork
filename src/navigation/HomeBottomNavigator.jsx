@@ -5,7 +5,7 @@ import { AntDesign, Feather } from "@expo/vector-icons";
 import PostsScreen from "../Screens/PostsScreen";
 import CreatePostsScreen from "../Screens/CreatePostsScreen";
 import ProfileScreen from "../Screens/ProfileScreen";
-import LogOut from "../components/LogOut";
+import LogOut from "../Components/LogOut";
 import { useNavigation, useRoute } from "@react-navigation/native";
 
 const Tabs = createBottomTabNavigator();

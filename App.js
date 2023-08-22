@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import { useFonts } from "expo-font";
 
-import RootNavigator from "./src/navigation/RootNavigator";
+import RootNavigator from "./src/Navigation/RootNavigator";
 import "react-native-gesture-handler";
 
 import * as Font from "expo-font";

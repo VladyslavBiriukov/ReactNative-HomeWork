@@ -12,9 +12,9 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import BackgroundImage from "../Images/BackgroundImage.jpg";
-import Input from "../components/Input";
-import Button from "../components/Button";
-import UserPhoto from "../components/UserPhoto";
+import Input from "../Components/Input";
+import Button from "../Components/Button";
+import UserPhoto from "../Components/UserPhoto";
 
 const RegistrationScreen = () => {
   const navigation = useNavigation();

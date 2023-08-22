@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, Image, StyleSheet, FlatList } from "react-native";
 import Ava from "../Images/Ava.jpg";
-import Posts from "../components/Posts";
-import postsData from "../components/TransferPostsData";
+import Posts from "../Components/Posts";
+import postsData from "../Components/TransferPostsData";
 
 const PostsScreen = () => {
   const [posts, setPosts] = useState([]);

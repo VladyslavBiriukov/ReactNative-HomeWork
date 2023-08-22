@@ -10,10 +10,10 @@ import {
 } from "react-native";
 
 import BackgroundImage from "../Images/BackgroundImage.jpg";
-import UserPhoto from "../components/UserPhoto";
+import UserPhoto from "../Components/UserPhoto";
 
-import ProfilePosts from "../components/ProfilePosts";
-import postsData from "../components/TransferPostsData";
+import ProfilePosts from "../Components/ProfilePosts";
+import postsData from "../Components/TransferPostsData";
 
 const ProfileScreen = () => {
   const [posts, setPosts] = useState([]);
