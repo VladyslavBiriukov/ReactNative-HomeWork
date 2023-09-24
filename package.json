@@ -9,7 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "1.17.11",
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "^1.17.11",
     "@react-navigation/bottom-tabs": "^6.5.7",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
@@ -17,7 +18,7 @@
     "@reduxjs/toolkit": "^1.9.5",
     "expo": "~48.0.18",
     "expo-camera": "~13.2.1",
-    "expo-font": "^11.6.0",
+    "expo-font": "~11.1.1",
     "expo-image-picker": "~14.1.1",
     "expo-location": "~15.1.1",
     "expo-media-library": "~15.2.3",
