@@ -14,7 +14,7 @@ import {
 } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import Toast from "react-native-root-toast";
-import { EvilIcons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import bg from "../../../img/Photo_BG.jpg";
 import { useNavigation } from "@react-navigation/native";
@@ -184,9 +184,9 @@ export default function RegistrationScreens() {
                   <Image source={{ uri: image }} style={styles.avatar} />
                 )}
                 {!image ? (
-                  <EvilIcons
+                  <MaterialCommunityIcons
                     style={styles.plus}
-                    name="plus"
+                    name="plus-circle-outline"
                     size={24}
                     color="#FF6C00"
                     onPress={pickImage}

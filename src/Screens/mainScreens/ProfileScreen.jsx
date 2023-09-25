@@ -11,7 +11,7 @@ import {
 import * as ImagePicker from "expo-image-picker";
 import bg from "../../../img/Photo_BG.jpg";
 import userPhoto from "../../../img/user.jpg";
-import { EvilIcons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
@@ -105,9 +105,9 @@ export default function ProfileScreen({ route }) {
               style={styles.userPhoto}
             ></Image>
             {!newUser.photoURL ? (
-              <EvilIcons
+              <MaterialCommunityIcons
                 style={styles.plus}
-                name="plus"
+                name="plus-circle-outline"
                 size={25}
                 color="#FF6C00"
                 onPress={pickImage}
